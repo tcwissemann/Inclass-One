@@ -2,7 +2,8 @@ def add_numbers(x, y):
     return x + y
 
 def multiply_numbers(x, y):
-    return x * y
+    return_value = x * y
+    return return_value
 
 def multiply_number_by_11(x):
     return x * 11
