@@ -4,6 +4,9 @@ def add_numbers(x, y):
 
 def multiply_numbers(x, y):
     return_value = x * y
+
+    if(return_value != 0):
+        print("Neither param was 0")
     return return_value
 
 def multiply_number_by_11(x):
