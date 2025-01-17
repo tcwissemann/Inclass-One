@@ -4,8 +4,8 @@ def add_numbers(x, y):
 
 def multiply_numbers(x, y):
     return_value = 0
-    
-    for item in range(y):
+
+    for num in range(y):
         return_value += x
         
     if(return_value != 0):
