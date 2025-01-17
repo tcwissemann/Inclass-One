@@ -4,7 +4,7 @@ def add_numbers(x, y):
 
 def multiply_numbers(x, y):
     return_value = 0
-    for i in range(y):
+    for item in range(y):
         return_value += x
     return return_value
 
